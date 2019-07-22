@@ -23,7 +23,8 @@ nav {
 }
 
 .slackLogo {
-  height: 70px;
+  /* width: px; */
+  height: 100%;
 }
 
 ul li {
