@@ -39,7 +39,7 @@ The **starter_code** contains the basic structure of an HTML & CSS project to st
 
 Mobile first right? :wink: 
 
-Firs, we are going to clone the mobile design of the webpage! 📱 Oh! Remember to use **flexbox**, because it will be really helpful later on when we need to adapt it to different screen-size!
+First, we are going to clone the mobile design of the webpage! 📱 Oh! Remember to use **flexbox**, because it will be really helpful later on when we need to adapt it to different screen-size!
  
 After doing your magic, you should have something like this:
 
