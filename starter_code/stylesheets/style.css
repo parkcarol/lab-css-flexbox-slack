@@ -1,10 +1,13 @@
 * {
-  border: 1px solid red;
-  font-family: sans-serif;
+  /* border: 1px solid red; */
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
 }
 
 #slackLogoContainer {
-  margin: 5px 10px;
+  margin: 10px;
   background: url(../images/slack-logo.png);
   background-size: 100%;
   background-position: center;
@@ -16,11 +19,13 @@
 }
 
 .contentAlign {
-  margin: 2% 3%;
+  margin: 0;
 }
 
 .headerTitle {
-  font-size: 2.4em;
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5em;
+  /* font-weight: bold; */
   margin-right: 30%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -33,11 +38,11 @@
 
 input[type=text] {
   box-sizing: border-box;
-  margin: 10px;
+  margin: 5px 22px;
   padding: 20px;
   font-size: 1em;
   text-align: left;
-  width: 95%;
+  width: 88%;
   border: 1px solid rgb(177, 176, 176);
   border-radius: 6px;
 }
@@ -48,7 +53,7 @@ input::placeholder {
 }
 
 .buttonContainer {
-  margin: 10px;
+  margin: 20px;
 }
 
 button {
@@ -213,6 +218,10 @@ ul li {
     width: 300px;
   }
 
+  .buttonContainer {
+    margin: 3px;
+  }
+
   .spanContainer {
     text-align: left;
     margin-left: 10px;
@@ -253,11 +262,16 @@ ul li {
 
   .mainP {
     text-align: left;
+    margin-left: 5px;
+  }
+
+  .span {
+    margin-left: 5px;
   }
 
   .formTwo {
     width: 200px;
-   
+
   }
 
   .footer {
@@ -302,6 +316,10 @@ ul li {
 
   .formOne {
     width: 300px;
+  }
+
+  .buttonContainer {
+    margin: 3px;
   }
 
   .spanContainer {
@@ -379,11 +397,110 @@ ul li {
 }
 
 @media (min-width: 1024px) {
+  .workspaces {
+    border: 1px solid rgb(177, 176, 176);
+    border-radius: 6px;
+    margin: 5px;
+  }
+
+  .contentAlign {
+    margin: 10px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  .imgPeopleBig {
+    height: 400px;
+    margin: 50px 30px;
+  }
+  
+  .headerText {
+    width: 45%;
+  }
+
+  .headerTitle {
+    width: 90%;
+    font-size: 4.4em;
+  }
+
+  .pContainer {
+    font-size: 1.2em;
+  }
+
+  .formOne {
+    display: none;
+  }
+
+  .buttonContainer {
+    margin: 8px;
+    width: 200px;
+  }
+
+  .spanContainer {
+    text-align: left;
+    margin-left: 10px;
+  }
+  
   .imgPeopleSmall {
     display: none;
   }
 
-  header {
-    display: flex;
+  .whiteButton {
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
+
+  .logosContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logos {
+    width: 33%;
+    padding: 40px;
+    flex-grow: 1;
+  }
+
+  .mainSecondInnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mainP {
+    text-align: left;
+  }
+
+  .formTwo {
+    display: none;
+  }
+
+  .slackPoundMobile {
+    display: none;
+  }
+
+  .slackPoundOther {
+    height: 100px;
+  }
+
+  .footerFirstContainer {
+    margin: 20px 0;
+  }
+
+  .uls {
+    margin-left: 20px;
+  }
+
+  .footerEnd {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
