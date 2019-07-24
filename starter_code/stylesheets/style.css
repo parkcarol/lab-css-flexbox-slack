@@ -1,16 +1,7 @@
 * {
   border: 1px solid red;
   font-family: sans-serif;
-  /* background-grey: #F4F3F4;
-  button-purple: #192592;
-  main-titles dark-grey: #2C303F;
-  paragraph grey: #5b5e6d;
-  nav grey: #5b5e6d; */
 }
-
-/* @media (max-width: 768px) {
-
-} */
 
 #slackLogoContainer {
   margin: 5px 10px;
@@ -40,12 +31,6 @@
   margin: 10px;
 }
 
-/* Why is the margin or padding not working? */
-p {
-  margin: 10px;
-  /* color: red; */
-}
-
 input[type=text] {
   box-sizing: border-box;
   margin: 10px;
@@ -73,6 +58,7 @@ button {
   padding: 20px;
   text-align: center;
   font-size: 1em;
+  font-weight: bold;
   border-radius: 6px;
   margin: 20px;
 }
@@ -85,26 +71,144 @@ button {
   margin: 40px 0;
 }
 
-main {
+.mainFirstInnerContainer {
   background-color: rgb(177, 176, 176);
 }
 
-.goodCompany {
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 20px;
+.mainTitle {
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: center;
+  padding: 20px 10px;
 }
 
-.logos {
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 20px;
-  width: 80%;
+.mainPContainer {
+  text-align: center;
+  margin: 10px;
 }
 
+.whiteButton {
+  width: 95%;
+  color: #192592;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.logosContainer {
+  padding: 60px;
+}
+
+.mainSecondInnerContainer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mainP {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.slackPound {
+  width: 80px;
+  margin: 10px 20px;
+}
+
+.footerFirstContainer {
+  display: flex;
+  margin: 10px;
+}
+
+.footerSecondContainer {
+  margin: 10px;
+}
+
+.footerThirdContainer {
+ margin: 10px;
+}
 
 ul li {
-  display: inline;
+  margin: 5px;
 }
 
+.firstLi {
+  font-weight: bold;
+}
 
+.footerEnd {
+  background-color: rgb(177, 176, 176);
+  align-content: center;
+}
+
+.footerEndUl {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.languageContainer {
+  text-align: center;
+}
+
+.usFlag {
+  width: 30px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.language {
+  font-weight: bold;
+}
+
+.socialMediaContainer {
+  text-align: center;
+  padding: 5px;
+}
+
+@media (min-width: 767px) and (max-width: 961px) {
+  .headerTitle {
+    font-size: 3.5em;
+    width: 90%;
+  }
+
+  .emailButtonContainer {
+    display: flex;
+  }
+
+  input[type=text] {
+    width: 300px;
+  }
+
+  .spanContainer {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.9em;
+  }
+  
+  .imgPeople {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .whiteButton {
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  .logosContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logos {
+    width: 50%;
+    padding: 30px;
+  }
+
+}
