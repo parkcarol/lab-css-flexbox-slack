@@ -67,7 +67,7 @@ button {
   text-align: center;
 }
 
-.imgPeople {
+.imgPeopleSmall {
   margin: 40px 0;
 }
 
@@ -121,8 +121,14 @@ button {
   font-weight: bold;
 }
 
-.slackPound {
+.slackPoundMobile {
   width: 80px;
+  margin: 0;
+}
+
+footer > hr {
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .footerFirstContainer {
@@ -175,7 +181,25 @@ ul li {
   padding: 5px;
 }
 
+.fa {
+  margin: 6px;
+}
+
+@media (max-width: 767px) {
+  .imgPeopleBig {
+    display: none;
+  }
+
+  .slackPoundOther {
+    display: none;
+  }
+}
+
 @media (min-width: 767px) and (max-width: 961px) {
+  .imgPeopleBig {
+    display: none;
+  }
+
   .headerTitle {
     font-size: 3.5em;
     width: 90%;
@@ -213,7 +237,7 @@ ul li {
   }
 
   .logos {
-    width: 50%;
+    width: 40%;
     padding: 30px;
   }
 
@@ -240,4 +264,126 @@ ul li {
     display: flex;
   }
 
+  .slackPoundMobile {
+    display: none;
+  }
+
+  .slackPoundOther {
+    height: 100px;
+  }
+
+  .footerFirstContainer {
+    margin: 20px 0;
+  }
+
+  .uls {
+    margin-left: 20px;
+  }
+
+  .footerEnd {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1024px) {
+  .imgPeopleBig {
+    display: none;
+  }
+  
+  .headerTitle {
+    font-size: 3.5em;
+    width: 90%;
+  }
+
+  .emailButtonContainer {
+    display: flex;
+  }
+
+  .formOne {
+    width: 300px;
+  }
+
+  .spanContainer {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.9em;
+  }
+  
+  .imgPeople {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .whiteButton {
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  .logosContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logos {
+    width: 33%;
+    padding: 40px;
+    flex-grow: 1;
+  }
+
+  .mainSecondInnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mainThirdInnerContainer {
+    display: flex;
+  }
+
+  .mainP {
+    text-align: left;
+  }
+
+  .formTwo {
+    width: 200px;
+   
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .slackPoundMobile {
+    display: none;
+  }
+
+  .slackPoundOther {
+    height: 100px;
+  }
+
+  .footerFirstContainer {
+    margin: 20px 0;
+  }
+
+  .uls {
+    margin-left: 20px;
+  }
+
+  .footerEnd {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imgPeopleSmall {
+    display: none;
+  }
+
+  header {
+    display: flex;
+  }
 }
